@@ -1,8 +1,16 @@
 @font-face {
-	font-family: Angsana;
-	src: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/fonts/Angsana/angsa.ttf');
+	font-family: Raleway;
+	src: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/fonts/Raleway/Raleway-Regular.ttf');
 }
 
 body {
-	font-family: Angsana;
+	font-family: Raleway, Calibri, Arial;
+}
+
+header {
+	background: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/img/main/logoUNAD-HD.png');
+}
+
+.header {
+	background-color: blue;
 }
