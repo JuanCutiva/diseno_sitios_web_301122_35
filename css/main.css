@@ -1,3 +1,8 @@
+@font-face {
+	font-family: Angsana;
+	src: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/fonts/Angsana/angsa.ttf');
+}
+
 body {
-	
+	font-family: Angsana;
 }
