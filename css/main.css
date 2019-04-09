@@ -1,6 +1,6 @@
 @font-face {
 	font-family: Raleway;
-	src: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/fonts/Raleway/Raleway-Regular.ttf');
+	src: url('/juancutiva.github.io/fonts/Raleway/Raleway-Regular.ttf');
 }
 
 body {
@@ -11,7 +11,7 @@ body {
 header {
 	width: 100%;
 	height: 128px;
-	background: url('/Users/juancutiva/Documents/GitHub/diseno_sitios_web_301122_35/img/main/logoUNAD-HD.png') no-repeat top center;
+	background: url('/juancutiva.github.io/img/main/logoUNAD-HD.png') no-repeat top center;
 	background-size: 100% 128px;
 }
 
