@@ -59,7 +59,7 @@ input {
 }
 
 #user:hover, #password:hover {
-
+	background-position: 0 0;
 }
 
 #login {
