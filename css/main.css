@@ -58,7 +58,8 @@ input {
 	background-repeat: no-repeat;
 }
 
-#user:hover, #password:hover {
+#user:focus, #password:focus {
+	box-shadow: none;
 	background-position: 0 0;
 }
 
