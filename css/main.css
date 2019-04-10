@@ -18,6 +18,7 @@ header {
 input {
 	width: 250px;
 	height: 16px;
+	font-size: 15px;
 }
 
 .header {
@@ -39,10 +40,18 @@ input {
 }
 
 #user, #password {
-	border-top: none;
-	border-left: none;
-	border-right: none;
+	border: none;
 	padding: 5px;
+	border-bottom: 1px solid #005883;
+	transition: all 0.3s cubic-bezier(.64,.09,.08,1);
+	background: linear-gradient(to bottom, rgba(255,255,255,0) 96%, #005883 4%);
+	background-position: -250px 0;
+	background-size: 250px 100%;
+	background-repeat: no-repeat;
+}
+
+#user:hover, #password:hover {
+
 }
 
 #login {
