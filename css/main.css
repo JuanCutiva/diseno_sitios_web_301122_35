@@ -25,6 +25,19 @@ input {
 	height: 50px;
 }
 
+.login-container {
+	width: 25em;
+	border: 2px solid #B3B3B3;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#title-login {
+	color: #005883;
+	font-family: Raleway;
+	font-size: 18px;
+}
+
 #user, #password {
 	border-top: none;
 	border-left: none;
