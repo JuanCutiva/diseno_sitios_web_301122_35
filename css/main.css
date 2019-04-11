@@ -71,6 +71,11 @@ input {
 	background-position: 0 0;
 }
 
+.blankInputHelpText {
+	color: #CD2122;
+	font-size: 15px;
+}
+
 #login {
 	color: white;
 	background-color: #005883;
