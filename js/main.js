@@ -5,14 +5,23 @@ jQuery(document).ready(function() {
 	
 });
 
-function validateUser() {
-	var user = document.getElementById('user').value;
-	var password = document.getElementById('password').value;
-	for(i = 0;i <= arrayUsers.length;i++) {
+function validateLogIn() {
+	var user = jQuery('#user').val();
+	var password = jQuery('#password').val();
+	if(user == '') {
+		jQuery('#user').before('<span class="blankInputHelpText">El usuario es requerido para ingresar.</span>');
+	}
+	if(password == '') {
+		jQuery('#password').before('<span class="blankInputHelpText">La contraseña es requerida para ingresar.</span>');
+	}
+	if(arrayUsers.indexOf(user) >= 0) {
+		jQuery('#password').focus();
+	}
+	/*for(i = 0;i <= arrayUsers.length;i++) {
 		if(user == arrayUsers[i]) {
 			alert('Es un usuario!');
 		} else {
 			alert('Intruso!');
 		}
-	}
+	}*/
 }
