@@ -25,6 +25,10 @@ footer {
 	background-color: #333333;
 }
 
+footer p {
+	margin-left: 20em;
+}
+
 input {
 	width: 250px;
 	height: 16px;
