@@ -2,17 +2,26 @@ var arrayUsers = new Array('administrador','invitado');
 var arrayPasswords = new Array('4dM1n','invitado');
 
 jQuery(document).ready(function() {
-	
+	jQuery('#user').keyup(function(e) {
+		if(e.keyCode != 8) {
+			jQuery('#userHelpText').remove();
+		}
+	});
+	jQuery('#password').keyup(function(e) {
+		if(e.keyCode != 8) {
+			jQuery('#passwordHelpText').remove();
+		}
+	});
 });
 
 function validateLogIn() {
 	var user = jQuery('#user').val();
 	var password = jQuery('#password').val();
 	if(user == '') {
-		jQuery('#user').before('<span class="blankInputHelpText">El usuario es requerido para ingresar.</span>');
+		jQuery('#user').before('<span id="userHelpText" class="blankInputHelpText">El usuario es requerido para ingresar.</span>');
 	}
 	if(password == '') {
-		jQuery('#password').before('<span class="blankInputHelpText">La contraseña es requerida para ingresar.</span>');
+		jQuery('#password').before('<span id="passwordHelpText" class="blankInputHelpText">La contraseña es requerida para ingresar.</span>');
 	}
 	if(arrayUsers.indexOf(user) >= 0) {
 		jQuery('#password').focus();
