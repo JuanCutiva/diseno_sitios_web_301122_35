@@ -4,5 +4,13 @@ jQuery(document).ready(function() {
 });
 
 function validateUser() {
-	alert('Hola');
+	var user = document.getElemenById('user').value;
+	var password = document.getElemenById('password').value;
+	for(i = 0;i <= arrayUsers.length;i++) {
+		if(user == arrayUsers[i]) {
+			alert('Es un usuario!');
+		} else {
+			alert('Intruso!');
+		}
+	}
 }
