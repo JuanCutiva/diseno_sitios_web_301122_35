@@ -27,7 +27,7 @@ function validateLogIn() {
 	}
 	if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
 		alert('Usuario logeado!');
-		window.location.href = '/juancutiva.github.io/views/accessit.html';
+		window.location.href = '/views/accessit.html';
 	}
 	/*for(i = 0;i <= arrayUsers.length;i++) {
 		if(user == arrayUsers[i]) {
