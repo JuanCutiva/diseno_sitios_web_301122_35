@@ -18,13 +18,15 @@ function validateLogIn() {
 	var user = jQuery('#user').val();
 	var password = jQuery('#password').val();
 	if(user == '') {
+		jQuery('#userHelpText').remove();
 		jQuery('#user').before('<span id="userHelpText" class="blankInputHelpText">El usuario es requerido para ingresar.</span>');
 	}
 	if(password == '') {
+		jQuery('#passwordHelpText').remove();
 		jQuery('#password').before('<span id="passwordHelpText" class="blankInputHelpText">La contraseña es requerida para ingresar.</span>');
 	}
-	if(arrayUsers.indexOf(user) >= 0) {
-		jQuery('#password').focus();
+	if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
+		window.href = '/juancutiva.github.io/views/accessit.html';
 	}
 	/*for(i = 0;i <= arrayUsers.length;i++) {
 		if(user == arrayUsers[i]) {
