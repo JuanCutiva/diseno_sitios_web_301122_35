@@ -1,9 +1,9 @@
 <?php
-include '../parts/header.html';
+include_once '../parts/header.html';
 ?>
 <div>
 	Holaaa estas en la nueva pagina
 </div>
 <?php
-include '../parts/footer.html';
+include_once '../parts/footer.html';
 ?>
