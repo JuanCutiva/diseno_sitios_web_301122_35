@@ -26,7 +26,6 @@ function validateLogIn() {
 		jQuery('#password').before('<span id="passwordHelpText" class="blankInputHelpText">La contraseña es requerida para ingresar.</span>');
 	}
 	if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
-		alert('Usuario logeado!');
 		window.location.href = '/juancutiva.github.io/views/accesit.php';
 	}
 	/*for(i = 0;i <= arrayUsers.length;i++) {
