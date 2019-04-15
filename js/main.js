@@ -25,8 +25,15 @@ function validateLogIn() {
 		jQuery('#password-helptext').remove();
 		jQuery('#password').before('<span id="password-helptext" class="blank-input-helptext">La contraseña es requerida para ingresar.</span>');
 	}
-	if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
-		window.location.href = '/juancutiva.github.io/views/accesit.php';
+	if(user != '' && password != ''){
+		if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
+		    //window.location.href = '/juancutiva.github.io/views/accesit.php';
+		    return true;
+	    } else {
+	    	jQuery('#user-helptext').remove();
+	    	jQuery('#password-helptext').remove();
+	    	jQuery('#user').before('<span id="user-helptext" class="blank-input-helptext">Usuario o contraseña incorrectos.</span>');
+	    }
 	}
 	/*for(i = 0;i <= arrayUsers.length;i++) {
 		if(user == arrayUsers[i]) {

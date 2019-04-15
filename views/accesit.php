@@ -1,8 +1,12 @@
+<?php
+include_once '../parts/header.html';
+?>
 <div class="user-menu">
 	<div class="dropdown">
 		<div id="username" class="name">
+			<img src="/juancutiva.github.io/img/user-profile-img.png" alt="user-img">
 			<?php
-			$user = $_POST["user"];
+			$user = $_POST["input-user"];
 			echo $user;
 			?>
 		</div>
@@ -12,12 +16,6 @@
 			<a href="/juancutiva.github.io/index.html">Cerrar sesión</a>
 		</div>
 	</div>
-</div>
-<?php
-include_once '../parts/header.html';
-?>
-<div>
-	Holaaa estas en la nueva pagina
 </div>
 <?php
 include_once '../parts/footer.html';

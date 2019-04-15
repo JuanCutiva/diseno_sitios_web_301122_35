@@ -20,14 +20,14 @@ Descripción: Página web desarrollada para realizar la actividad #2 del curso d
 	<center>
 		<div class="container">
 			<div class="login-container">
-				<form action="./accesit.php" method="post">
+				<form action="./views/accesit.php" method="post">
 					<span id="title-login">Campus Virtual</span>
 					<br><br><br>
-					<input type="text" id="user" name="input-user" autocomplete="off" placeholder="Usuario" value="administrador">
+					<input type="text" id="user" name="input-user" autocomplete="off" placeholder="Usuario">
 					<br><br>
-					<input type="password" id="password" name="input-password" placeholder="Contrase&ntilde;a" value="4dM1n">
+					<input type="password" id="password" name="input-password" placeholder="Contrase&ntilde;a">
 					<br><br><br>
-					<input type="submit" id="login" name="input-login" value="Ingresar" onclick="validateLogIn()">
+					<input type="submit" id="login" name="input-login" value="Ingresar" onclick="javascript:if(!validateLogIn()){return false;}">
 				</form>
 			</div>
 		</div>

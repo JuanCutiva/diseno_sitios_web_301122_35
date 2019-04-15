@@ -97,3 +97,64 @@ input {
 #login:focus {
 	outline: none;
 }
+
+#username {
+	width: 10em;
+    text-align: center;
+    margin-left: 8em;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#username img {
+	border-radius: 50%;
+	width: 25px;
+    border: 1px solid black;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+#username:hover {
+	cursor: pointer;
+}
+
+.user-menu {
+	text-align: right;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 0px 15px 1px black;
+    z-index: 1;
+    margin-left: 8em;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	font-weight: bolder;
+}
+
+.dropdown:hover .name {
+    background-color: #C3DBEE;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
