@@ -11,6 +11,9 @@ jQuery(document).ready(function() {
 		if(e.keyCode != 8) {
 			jQuery('#password-helptext').remove();
 		}
+		if(e.keyCode === 13) {
+			validateLogIn();
+		}
 	});
 });
 
@@ -27,8 +30,7 @@ function validateLogIn() {
 	}
 	if(user != '' && password != ''){
 		if(arrayUsers.indexOf(user) >= 0 && arrayPasswords.indexOf(password) >= 0) {
-		    //window.location.href = '/juancutiva.github.io/views/accesit.php';
-		    return true;
+		    window.location.href = '/juancutiva.github.io/views/accesit.html';
 	    } else {
 	    	jQuery('#user-helptext').remove();
 	    	jQuery('#password-helptext').remove();
