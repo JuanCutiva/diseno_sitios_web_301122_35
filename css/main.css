@@ -159,3 +159,19 @@ input {
 	display: block;
 }
 
+.modules {
+	display: -webkit-box;
+	padding: 2em;
+	text-align: -webkit-center;
+}
+
+.modules a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 1em;
+}
+
+.modules a img {
+	width: 170px;
+}
+
