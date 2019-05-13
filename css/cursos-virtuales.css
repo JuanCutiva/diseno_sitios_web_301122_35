@@ -20,8 +20,8 @@ thead tr:nth-child(2) {
 
 thead tr:nth-child(1) th {
 	padding: 15px;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
 }
 
 thead tr:nth-child(2) th{
@@ -47,6 +47,14 @@ tbody tr td:nth-child(1) {
 
 tbody tr td:nth-child(3) {
 	text-align: center;
+}
+
+tbody tr:last-child td:nth-child(1) {
+	border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:nth-child(2) {
+	border-bottom-right-radius: 10px;
 }
 
 td {
