@@ -17,5 +17,5 @@ tbody tr:nth-child(odd) {
 }
 
 a:visited {
-	color: -webkit-link;
+	color: blue;
 }
