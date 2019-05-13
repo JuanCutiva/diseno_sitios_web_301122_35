@@ -20,10 +20,10 @@ a:visited {
 	color: blue;
 }
 
-tbody tr:nth-child(1) td {
+tbody tr td:nth-child(1) {
 	text-align: center;
 }
 
-tbody tr:nth-child(3) td {
+tbody tr td:nth-child(3) {
 	text-align: center;
 }
