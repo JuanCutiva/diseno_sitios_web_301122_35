@@ -23,7 +23,7 @@ th:nth-child(1) {
 }
 
 th:nth-child(2) {
-	padding: 12px;
+	padding: 5px;
 }
 
 tbody tr:nth-child(even) {
