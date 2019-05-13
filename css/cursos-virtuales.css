@@ -8,6 +8,16 @@ table {
 	border-radius: 5px;
 }
 
+thead tr:nth-child(1) {
+	color: white;
+	background-color: #005883;
+}
+
+thead tr:nth-child(2) {
+	color: black;
+	background-color: #98C3FC;
+}
+
 tbody tr:nth-child(even) {
 	color: black;
 	background-color: #E4E4E4;
