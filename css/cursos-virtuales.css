@@ -37,10 +37,6 @@ tbody tr:nth-child(odd) {
 	background-color: #FFFFE6;
 }
 
-a:visited {
-	color: blue;
-}
-
 tbody tr td:nth-child(1) {
 	text-align: center;
 }
@@ -53,10 +49,36 @@ tbody tr:last-child td:nth-child(1) {
 	border-bottom-left-radius: 10px;
 }
 
-tbody tr:last-child td:nth-child(2) {
+tbody tr:last-child td:nth-child(3) {
 	border-bottom-right-radius: 10px;
 }
 
 td {
 	padding: 10px;
+}
+
+.notification-button {
+	background-color: #005883;
+	color: white;
+	text-decoration: none;
+	padding: 5px 15px 5px 15px;
+	position: relative;
+	display: inline-block;
+	border-radius: 5px;
+	transition: background-color 200ms ease;
+}
+
+.notification-button:hover {
+	background-color: #333;
+}
+
+.notification-button .badge {
+	position: absolute;
+	font-family: Verdana;
+	top: -10px;
+	right: -10px;
+	padding: 5px 10px;
+	border-radius: 50%;
+	background-color: red;
+	color: white;
 }
