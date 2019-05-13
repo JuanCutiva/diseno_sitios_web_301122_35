@@ -3,12 +3,12 @@
 	text-align: -webkit-center;
 }
 
-tr:nth-child(even) {
+tbody tr:nth-child(even) {
 	color: black;
-	background-color: white;
+	background-color: #E4E4E4;
 }
 
-tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
 	color: white;
-	background-color: #5DCAF9;
+	background-color: #FFFFE6;
 }
