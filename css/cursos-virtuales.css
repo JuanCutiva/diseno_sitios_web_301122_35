@@ -5,6 +5,7 @@
 
 table {
 	width: 40em;
+	border-radius: 5px;
 }
 
 tbody tr:nth-child(even) {
@@ -26,4 +27,8 @@ tbody tr td:nth-child(1) {
 
 tbody tr td:nth-child(3) {
 	text-align: center;
+}
+
+td {
+	padding: 10px;
 }
