@@ -3,6 +3,10 @@
 	text-align: -webkit-center;
 }
 
+table {
+	width: 40em;
+}
+
 tbody tr:nth-child(even) {
 	color: black;
 	background-color: #E4E4E4;
