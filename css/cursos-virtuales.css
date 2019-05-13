@@ -20,6 +20,8 @@ thead tr:nth-child(2) {
 
 thead tr:nth-child(1) th {
 	padding: 15px;
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px;
 }
 
 thead tr:nth-child(2) th{
