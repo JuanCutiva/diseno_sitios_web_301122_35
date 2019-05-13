@@ -19,3 +19,11 @@ tbody tr:nth-child(odd) {
 a:visited {
 	color: blue;
 }
+
+tbody tr:nth-child(1) td {
+	text-align: center;
+}
+
+tbody tr:nth-child(3) td {
+	text-align: center;
+}
