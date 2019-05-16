@@ -7,6 +7,12 @@ jQuery(document).ready(function() {
 			jQuery('#user-helptext').remove();
 		}
 	});
+	jQuery('#user').focus(function() {
+		jQuery('#user').before('<span class="credentials-helper">Usuario: administrador</span>');
+	});
+	jQuery('#user').focusout(function() {
+		jQuery('.credentials-helper').remove();
+	});
 	jQuery('#password').keyup(function(e) {
 		if(e.keyCode != 8) {
 			jQuery('#password-helptext').remove();
@@ -14,6 +20,12 @@ jQuery(document).ready(function() {
 		if(e.keyCode === 13) {
 			validateLogIn();
 		}
+	});
+	jQuery('#password').focus(function() {
+		jQuery('#password').before('<span class="credentials-helper">Contraseña: 4dM1n</span><br class="credentials-helper">');
+	});
+	jQuery('#password').focusout(function() {
+		jQuery('.credentials-helper').remove();
 	});
 });
 
