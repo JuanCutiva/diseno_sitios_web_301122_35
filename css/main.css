@@ -175,3 +175,26 @@ input {
 	width: 170px;
 }
 
+.navigator {
+	position: absolute;
+	border-radius: 5px;
+	background-color: #EBEBEB;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	padding-right: 10px;
+	width: 75em;
+
+}
+
+.navigator a:visited {
+	color: blue;
+}
+
+.navigator ul {
+	list-style-type: none;
+}
+
+.navigator ul li {
+	display: inline;
+}
+
