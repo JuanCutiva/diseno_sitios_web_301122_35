@@ -199,3 +199,15 @@ input {
 	display: inline;
 }
 
+aside ul {
+	list-style-type: none;
+}
+
+aside a {
+	text-decoration: none;
+	color: black;
+}
+
+aside a:hover {
+	color: #CD2122;
+}
